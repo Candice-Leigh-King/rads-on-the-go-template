@@ -1,4 +1,4 @@
-textarea_html: "<p>/#blog</p><p><a href=\"/#services\">services</a></p><p><a href=\"/#reviews\">review</a></p><p><a href=\"/#gallery\">gallery</a></p><p><a href=\"/#contact\">contact</a></p><p>\_</p>"
+textarea_html: "<p><a href=\"/#services\">services</a></p><p><a href=\"/#reviews\">review</a></p><p><a href=\"/#gallery\">gallery</a></p><p><a href=\"/#contact\">contact</a></p><p>\_</p>"
 colors:
   hamburger-color: '#ffffff'
   background-color: '#859f9f'
