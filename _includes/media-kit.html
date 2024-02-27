@@ -100,10 +100,10 @@
     {color: {{item.colors.subheading-color}};}
 
   #content-blocks-{{forloop.index0}} .textarea-color a
-    {color: {{item.colors.subheading-color}};}
+    {color: {{item.colors.link-color}};}
 
   #content-blocks-{{forloop.index0}} .textarea-color a:hover
-    {color: {{item.colors.textarea-color}};}
+    {color: {{item.colors.link-hover-color}};}
 
 </style>
     
@@ -117,7 +117,7 @@
         <p class="col-12 center title-3 no-margin follower-number">{{item.info.title-3}}</p>
         <p class="col-12 center title-4 media-kit-line-height"> {{item.info.title-4}}</p>
         <p class="col-12 center no-margin username title-5 padded-top">{{item.info.title-5}}</p>
-        <div class="grid-center center col-9_sm-12">
+        <div class="grid-center center col-12">
           <div class="grid-center center col-3_xs-5 padded ">
             <p class="col-12-middle number center radius media-kit-border statistic-data-font statistic-data-color"> {{item.statistics.bubble-1.data}}</p>
             <p class="col-12 center statistic-title-color statistic-title-font ">{{item.statistics.bubble-1.title}}</p>
@@ -135,7 +135,7 @@
             <p class="col-12 center statistic-title-color statistic-title-font">{{item.statistics.bubble-4.title}}</p>
           </div>
         </div>
-        <h4 class="col-12 center subheading-color subheading-font ">{{item.text-area.subheading}}</h4>
+        <h4 class="col-12 center subheading-color center subheading-font ">{{item.text-area.subheading}}</h4>
         <div class="col-12 center textarea-color textarea-font">
          <p>{{item.text-area.textarea_html}}</p>
         </div>
